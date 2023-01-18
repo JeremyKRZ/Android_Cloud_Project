@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_to_firebase">Aller vers l\'activité Firebase</string>
+    <string name="go_to_recyclerview">Aller vers l\'activité RecyclerView</string>
+    <string name="group_members">Jeremy Krzeczowski et Nicolas Davenne</string>
+</resources>

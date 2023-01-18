@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/custom_background"
+    android:layout_margin="5dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/itemRecyclerViewPokemonImage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:adjustViewBounds="true"
+        android:background="@drawable/image_view_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Phone Image"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/itemRecyclerViewPokemonName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/itemRecyclerViewPokemonNumber"
+        app:layout_constraintLeft_toRightOf="@+id/itemRecyclerViewPokemonImage"
+        app:layout_constraintRight_toLeftOf="@+id/itemRecyclerViewPokemonTimestamp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        tools:text="@tools:sample/full_names" />
+
+
+    <TextView
+        android:id="@+id/itemRecyclerViewPokemonNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/itemRecyclerViewPokemonWeight"
+        app:layout_constraintLeft_toRightOf="@id/itemRecyclerViewPokemonImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemRecyclerViewPokemonName"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/itemRecyclerViewPokemonWeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/itemRecyclerViewPokemonImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemRecyclerViewPokemonNumber"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/itemRecyclerViewPokemonTimestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@id/itemRecyclerViewPokemonNumber"
+        app:layout_constraintLeft_toRightOf="@id/itemRecyclerViewPokemonName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/date/hhmmss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

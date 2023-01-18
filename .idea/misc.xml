@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/bg_gradient.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/custom_background.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/image_view_background.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/image_view_border.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/splash_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/drawable/splash_screen.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_firebase.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_firebase_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_firebase_inscription.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_recycler_view.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/activity_splash_screen.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/item_custom_recycler_footer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Jeremy KRZ/Desktop/Master2/Android Cloud/android_cloud_project/app/src/main/res/layout/pokemon_item_recycler.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

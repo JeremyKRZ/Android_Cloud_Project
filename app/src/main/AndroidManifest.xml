@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.krzjeremy.android_cloud_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".architecture.CustomApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_cloud_project">
+        <activity
+            android:name=".view.FirebaseHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.FirebaseInscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.FirebaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
