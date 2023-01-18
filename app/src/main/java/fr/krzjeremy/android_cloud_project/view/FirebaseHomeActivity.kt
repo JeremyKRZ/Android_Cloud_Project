@@ -3,6 +3,7 @@ package fr.krzjeremy.android_cloud_project.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import fr.krzjeremy.android_cloud_project.MainActivity
@@ -37,6 +38,10 @@ class FirebaseHomeActivity : AppCompatActivity() {
             generateFirebaseIntentAndGoTo()
         }
         binding.FirebaseHomeActivityButtonMenu.setOnClickListener {
+            generateMainIntentAndGoTo()
+        }
+        binding.FirebaseHomeActivityButtonDeconnexion.setOnClickListener {
+            FirebaseAuth.getInstance().signOut();
             generateMainIntentAndGoTo()
         }
     }
