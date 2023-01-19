@@ -103,7 +103,7 @@ class PokemonViewHolder(
         binding.itemRecyclerViewPokemonTimestamp.text = pokemonItem.pokemonTimestamp
         Glide.with(itemView.context)
             .load(pokemonItem.pokemonImage)
-            .placeholder(R.drawable.ic_launcher_background)
+            .placeholder(R.color.ic_launcher_background)
             .into(binding.itemRecyclerViewPokemonImage)
     }
 }

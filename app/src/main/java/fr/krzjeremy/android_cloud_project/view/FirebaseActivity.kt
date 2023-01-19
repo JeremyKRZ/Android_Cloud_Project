@@ -22,6 +22,9 @@ class FirebaseActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        binding.FirebaseActivityButtonConnection.setOnClickListener{
+            checkInputs()
+        }
         binding.FirebaseActivityButtonInscription.setOnClickListener {
             generateFirebaseInscriptionIntentAndGoTo()
         }
@@ -34,6 +37,18 @@ class FirebaseActivity : AppCompatActivity() {
         if(currentUser != null){
             generateFirebaseHomeIntentAndGoTo()
         }
+    }
+
+    private fun checkInputs() {
+        var ok = true
+        var email = ""
+        var password = ""
+        binding.apply {
+            email = FirebaseActivityEditTextEmail.text.toString()
+            password = FirebaseActivityEditTextPassword.text.toString()
+        }
+        signIn(email, password)
+
     }
 
     private fun generateFirebaseHomeIntentAndGoTo() {
