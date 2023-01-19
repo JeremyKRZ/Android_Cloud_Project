@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_item">@android:color/white</color>
+    <color name="ic_launcher_background">@android:color/white</color>
     <color name="title">#FF3700B3</color>
     <color name="subtitle">#303030</color>
     <color name="background_app">#FFFFFFFF</color>
